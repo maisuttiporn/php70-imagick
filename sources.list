@@ -1,0 +1,18 @@
+deb http://ftp.debianclub.org/debian jessie main
+deb http://ftp.debianclub.org/debian-security jessie/updates main
+deb http://ftp.debianclub.org/debian jessie-updates main
+
+## FTP
+echo '' > sources.list
+echo "deb http://ftp.debianclub.org/debian jessie main" >> sources.list
+echo "deb http://ftp.debianclub.org/debian-security jessie/updates main" >> sources.list
+echo "deb http://ftp.debianclub.org/debian jessie-updates main" >> sources.list
+
+
+
+# KKU
+echo '' > sources.list
+echo "deb http://mirror.kku.ac.th/debian jessie main" >> sources.list
+echo "deb http://ftp.debianclub.org/debian-security jessie/updates main" >> sources.list
+echo "deb http://mirror.kku.ac.th/debian jessie-updates main" >> sources.list
+
